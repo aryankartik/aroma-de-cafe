@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Aroma de Café</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    
+    <!-- JSON-LD SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Aroma de Café",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "91-95 Newington Butts",
+        "addressLocality": "London",
+        "postalCode": "SE1 6SF",
+        "addressCountry": "UK"
+      },
+      "telephone": "+447961420407",
+      "priceRange": "£10-20",
+      "servesCuisine": "Colombian",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "reviewCount": "406"
+      },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "09:00", "closes": "20:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday", "Saturday"], "opens": "09:00", "closes": "21:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "09:00", "closes": "19:00" }
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.4926,
+        "longitude": -0.1005
+      },
+      "paymentAccepted": "Cash, Credit Card, Debit Card, NFC",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=91-95+Newington+Butts+London+SE1+6SF"
+    }
+    </script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Aroma de Café</a>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1920&auto=format&fit=crop');"></div>
+        <div class="hero-content reveal active">
+            <span class="hero-kicker">Visual Tour</span>
+            <h1>Gallery</h1>
+            <p>A visual tour of our dishes and atmosphere.</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="gallery-grid reveal">
+                <!-- 12 Placeholders for Perfect Grid (3x4) -->
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=600&auto=format&fit=crop" alt="Coffee art at Aroma de Cafe" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=600&auto=format&fit=crop" alt="Delicious meat dish" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=600&auto=format&fit=crop" alt="Fresh salad bowl" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1505935428862-770b6f24f629?q=80&w=600&auto=format&fit=crop" alt="Plate with meat and sauce" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1666770002650-053dd70866af?q=80&w=688&auto=format&fit=crop" alt="Assorted small plates" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?q=80&w=600&auto=format&fit=crop" alt="Arepas and snacks" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=600&auto=format&fit=crop" alt="Sandwich or lunch item" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=600&auto=format&fit=crop" alt="Chef preparing food" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?q=80&w=600&auto=format&fit=crop" alt="Soup dish" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=600&auto=format&fit=crop" alt="Table setting" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?q=80&w=600&auto=format&fit=crop" alt="Green and healthy options" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1493770348161-369560ae357d?q=80&w=600&auto=format&fit=crop" alt="Breakfast setup" loading="lazy"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Call Button -->
+    <a href="tel:+447961420407" class="floating-cta">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        Call Now
+    </a>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Aroma de Café</h3>
+                    <p style="max-width: 300px;">Authentic Colombian flavors in London. Experience the warmth of our culture through our food.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <p>91-95 Newington Butts<br>London SE1 6SF, UK</p>
+                    <p><a href="tel:+447961420407">+44 7961 420407</a></p>
+                    <p><a href="mailto:contact@aromadecafe.co.uk">contact@aromadecafe.co.uk [TO CONFIRM]</a></p>
+                </div>
+                <div class="footer-col">
+                    <h3>Opening Hours</h3>
+                    <p>Mon - Thu: 9:00 AM - 8:00 PM</p>
+                    <p>Fri - Sat: 9:00 AM - 9:00 PM</p>
+                    <p>Sun: 9:00 AM - 7:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aroma de Café. All rights reserved.</p>
+                <div style="display: flex; gap: 20px;">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

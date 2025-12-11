@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | Aroma de Café</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    
+    <!-- JSON-LD SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Aroma de Café",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "91-95 Newington Butts",
+        "addressLocality": "London",
+        "postalCode": "SE1 6SF",
+        "addressCountry": "UK"
+      },
+      "telephone": "+447961420407",
+      "priceRange": "£10-20",
+      "servesCuisine": "Colombian",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "reviewCount": "406"
+      },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "09:00", "closes": "20:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday", "Saturday"], "opens": "09:00", "closes": "21:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "09:00", "closes": "19:00" }
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.4926,
+        "longitude": -0.1005
+      },
+      "paymentAccepted": "Cash, Credit Card, Debit Card, NFC",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=91-95+Newington+Butts+London+SE1+6SF"
+    }
+    </script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Aroma de Café</a>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html" class="active">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1549488344-c7052fb6cf1c?q=80&w=1920&auto=format&fit=crop');"></div>
+        <div class="hero-content reveal active">
+            <span class="hero-kicker">Help & Info</span>
+            <h1>Frequently Asked Questions</h1>
+            <p>Everything you need to know before visiting.</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container" style="max-width: 800px;">
+            
+            <div class="content-card reveal" style="padding: 40px; margin-bottom: 24px;">
+                <h3 style="color: var(--primary); font-size: 1.25rem; margin-bottom: 12px;">Do you offer vegetarian options?</h3>
+                <p style="margin-bottom: 0;">Yes, we have several vegetarian dishes including our Vegetarian Plate, Arepas with cheese, and Plantain with Hogao.</p>
+            </div>
+
+            <div class="content-card reveal" style="padding: 40px; margin-bottom: 24px; transition-delay: 0.1s;">
+                <h3 style="color: var(--primary); font-size: 1.25rem; margin-bottom: 12px;">Do you take bookings?</h3>
+                <p style="margin-bottom: 0;">Yes, we accept reservations for groups of all sizes. Please call us or use the contact form to book a table.</p>
+            </div>
+
+            <div class="content-card reveal" style="padding: 40px; margin-bottom: 24px; transition-delay: 0.2s;">
+                <h3 style="color: var(--primary); font-size: 1.25rem; margin-bottom: 12px;">Do you offer delivery/takeaway?</h3>
+                <p style="margin-bottom: 0;">Absolutely. All our menu items are available for takeaway. We are also available on major delivery platforms in London.</p>
+            </div>
+
+            <div class="content-card reveal" style="padding: 40px; margin-bottom: 24px;">
+                <h3 style="color: var(--primary); font-size: 1.25rem; margin-bottom: 12px;">Do you cater events?</h3>
+                <p style="margin-bottom: 0;">Yes! We provide catering for private parties and corporate events. Contact us for a custom menu quote.</p>
+            </div>
+
+            <div class="content-card reveal" style="padding: 40px; margin-bottom: 24px; transition-delay: 0.1s;">
+                <h3 style="color: var(--primary); font-size: 1.25rem; margin-bottom: 12px;">Do you have parking nearby?</h3>
+                <p style="margin-bottom: 0;">There is street parking available nearby and a public car park just a 5-minute walk away.</p>
+            </div>
+
+            <div class="content-card reveal" style="padding: 40px; margin-bottom: 24px; transition-delay: 0.2s;">
+                <h3 style="color: var(--primary); font-size: 1.25rem; margin-bottom: 12px;">Do you handle allergies?</h3>
+                <p style="margin-bottom: 0;">We take allergies seriously. Please inform your server of any dietary requirements, and we will do our best to accommodate you.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Floating Call Button -->
+    <a href="tel:+447961420407" class="floating-cta">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        Call Now
+    </a>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Aroma de Café</h3>
+                    <p style="max-width: 300px;">Authentic Colombian flavors in London. Experience the warmth of our culture through our food.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <p>91-95 Newington Butts<br>London SE1 6SF, UK</p>
+                    <p><a href="tel:+447961420407">+44 7961 420407</a></p>
+                    <p><a href="mailto:contact@aromadecafe.co.uk">contact@aromadecafe.co.uk [TO CONFIRM]</a></p>
+                </div>
+                <div class="footer-col">
+                    <h3>Opening Hours</h3>
+                    <p>Mon - Thu: 9:00 AM - 8:00 PM</p>
+                    <p>Fri - Sat: 9:00 AM - 9:00 PM</p>
+                    <p>Sun: 9:00 AM - 7:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aroma de Café. All rights reserved.</p>
+                <div style="display: flex; gap: 20px;">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

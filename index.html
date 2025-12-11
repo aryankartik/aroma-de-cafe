@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma de Café | Authentic Colombian Cuisine</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    
+    <!-- JSON-LD SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Aroma de Café",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "91-95 Newington Butts",
+        "addressLocality": "London",
+        "postalCode": "SE1 6SF",
+        "addressCountry": "UK"
+      },
+      "telephone": "+447961420407",
+      "priceRange": "£10-20",
+      "servesCuisine": "Colombian",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "reviewCount": "406"
+      },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "09:00", "closes": "20:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday", "Saturday"], "opens": "09:00", "closes": "21:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "09:00", "closes": "19:00" }
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.4926,
+        "longitude": -0.1005
+      },
+      "paymentAccepted": "Cash, Credit Card, Debit Card, NFC",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=91-95+Newington+Butts+London+SE1+6SF"
+    }
+    </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Aroma de Café</a>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero hero-home">
+        <!-- High-quality food/ambiance image -->
+        <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1550966871-3ed3c47e2ce2?q=80&w=1920&auto=format&fit=crop');"></div>
+        <div class="hero-content reveal active">
+            <span class="hero-kicker">Est. 2015 London</span>
+            <h1>Authentic Colombian <br>Soul Food</h1>
+            <p>Experience the vibrant spirit of Colombia with home-style dishes, fresh exotic juices, and warm hospitality.</p>
+            <div class="hero-buttons">
+                <a href="menu.html" class="btn">View Menu</a>
+                <a href="contact.html" class="btn btn-outline">Book Table</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Preview -->
+    <section class="section">
+        <div class="container about-grid">
+            <div class="about-text content-card reveal">
+                <h4>Welcome to London's Finest</h4>
+                <h2>A Taste of Colombia</h2>
+                <p>Nestled in the heart of London, Aroma de Café brings you the vibrant flavors of Colombia. From our rich, mountain-grown coffee to our hearty Bandeja Paisa, every dish is crafted with tradition and love.</p>
+                <p>We believe in the power of food to bring people together. Our recipes have been passed down through generations.</p>
+                <a href="about.html" class="btn btn-outline-dark" style="margin-top: 1rem;">Our Story</a>
+            </div>
+            <div class="about-image reveal">
+                <!-- Interior Seating -->
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=800&auto=format&fit=crop" alt="Interior seating at Aroma de Café" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Dishes -->
+    <section class="section" style="background-color: var(--white);">
+        <div class="container">
+            <div class="text-center mb-4 reveal">
+                <h4>Our Specialties</h4>
+                <h2>Customer Favorites</h2>
+            </div>
+            <div class="card-grid">
+                <!-- Card 1 -->
+                <div class="card reveal">
+                    <!-- Bandeja Paisa -->
+                    <img src="https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?q=80&w=800&auto=format&fit=crop" alt="Bandeja Paisa with rice, beans, plantain and chorizo" loading="lazy">
+                    <div class="card-content">
+                        <h3 class="card-title">Bandeja Paisa</h3>
+                        <p>Our signature dish featuring beans, rice, chorizo, chicharrón, fried egg, plantain, avocado, and arepa.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card reveal" style="transition-delay: 0.1s;">
+                    <!-- Arepas -->
+                    <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop" alt="Arepa rellena with cheese" loading="lazy">
+                    <div class="card-content">
+                        <h3 class="card-title">Arepas con Todo</h3>
+                        <p>Handmade corn cakes topped with cheese, chorizo, or shredded beef. A staple of Colombian cuisine.</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="card reveal" style="transition-delay: 0.2s;">
+                    <!-- Tilapia -->
+                    <img src="https://images.unsplash.com/photo-1628839168545-bfa1bc1d6706?q=80&w=1170&auto=format&fit=crop" alt="Fried tilapia served with rice and salad" loading="lazy">
+                    <div class="card-content">
+                        <h3 class="card-title">Tilapia Frita</h3>
+                        <p>Crispy fried whole tilapia served with aromatic coconut rice and golden patacones.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center reveal" style="margin-top: 60px;">
+                <a href="menu.html" class="btn">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-4 reveal">
+                <h4>Testimonials</h4>
+                <h2>Loved by Locals</h2>
+            </div>
+            <div class="card-grid">
+                <div class="testimonial-item reveal">
+                    <p>"Absolutely authentic! The sancocho tastes just like my grandmother's cooking. Highly recommended."</p>
+                    <h4>- Maria G. [TO CONFIRM]</h4>
+                </div>
+                <div class="testimonial-item reveal" style="transition-delay: 0.1s;">
+                    <p>"A hidden gem in London. The coffee is outstanding and the staff make you feel like family."</p>
+                    <h4>- James T. [TO CONFIRM]</h4>
+                </div>
+                <div class="testimonial-item reveal" style="transition-delay: 0.2s;">
+                    <p>"Great portions and amazing flavor. The Bandeja Paisa is a must-try for anyone who loves food!"</p>
+                    <h4>- Luisa P. [TO CONFIRM]</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Preview -->
+    <section class="section" style="background-color: var(--white); padding-bottom: 0;">
+        <div class="container text-center reveal">
+            <h4>Atmosphere</h4>
+            <h2 class="mb-4">Visual Experience</h2>
+            <div class="gallery-grid mb-4">
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=600&auto=format&fit=crop" alt="Freshly brewed Colombian coffee" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=600&auto=format&fit=crop" alt="Food at Aroma de Cafe" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=600&auto=format&fit=crop" alt="People dining" loading="lazy"></div>
+            </div>
+            <a href="gallery.html" class="btn btn-outline-dark" style="margin-bottom: 80px;">See Full Gallery</a>
+        </div>
+    </section>
+
+    <!-- Floating Call Button -->
+    <a href="tel:+447961420407" class="floating-cta">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        Call Now
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Aroma de Café</h3>
+                    <p style="max-width: 300px;">Authentic Colombian flavors in London. Experience the warmth of our culture through our food.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <p>91-95 Newington Butts<br>London SE1 6SF, UK</p>
+                    <p><a href="tel:+447961420407">+44 7961 420407</a></p>
+                    <p><a href="mailto:contact@aromadecafe.co.uk">contact@aromadecafe.co.uk [TO CONFIRM]</a></p>
+                </div>
+                <div class="footer-col">
+                    <h3>Opening Hours</h3>
+                    <p>Mon - Thu: 9:00 AM - 8:00 PM</p>
+                    <p>Fri - Sat: 9:00 AM - 9:00 PM</p>
+                    <p>Sun: 9:00 AM - 7:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aroma de Café. All rights reserved.</p>
+                <div style="display: flex; gap: 20px;">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
